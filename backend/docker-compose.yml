@@ -3,17 +3,13 @@ services:
     image: postgres
     restart: always
     volumes:
-      - ./data/db:/var/lib/postgresql/data
+      - db_data:/var/lib/postgresql/data
     ports:
       - 5432:5432
-
     environment:
       - POSTGRES_DB=chat_app
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=123456
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+volumes:
+  db_data:
