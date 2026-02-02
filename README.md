@@ -22,5 +22,6 @@
 - **pg**: The PostgreSQL client for Node.js, allowing your application to interact with a PostgreSQL database for data persistence.
 - **socket.io**: For enabling real-time, bidirectional communication between the client and server, crucial for chat functionality.
 
+## Demo
 
   ![Screenshot from 2024-09-21 14-37-00](https://github.com/user-attachments/assets/092cd223-acb6-4e76-b7f8-e1a72eeb78d8)
