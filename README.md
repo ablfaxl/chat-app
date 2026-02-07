@@ -1,8 +1,8 @@
 # Simple FullStack Chat Application
 
-- you can run front end and back end simply if read readme for them .
+- you can run Frontend and Backend simply if read readme for them .
 
-## Technologies Used in Front End
+## Technologies Used in FrontEnd
 
 - **axios**: For managing server requests and handling HTTP interactions.
 - **react-hook-form**: For managing form state and validation easily and effectively.
@@ -11,7 +11,7 @@
 - **socket.io-client**: For listening to and emitting socket events for real-time communication.
 - **zustand**: For state management, allowing easy and structured state management in React.
 
-## Technologies Used in Back End
+## Technologies Used in BackEnd
 
 - **bcryptjs**: For hashing passwords securely, ensuring user credentials are stored in an encrypted format.
 - **cookie-parser**: For parsing cookies in incoming requests, enabling easy access to cookie data.
